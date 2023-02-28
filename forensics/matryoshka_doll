@@ -1,0 +1,4 @@
+#matryoshka dolls are multiple dolls placed one inside another, this suggests that the file that is given hides other files
+#binwalk is a tool that finds files hidden inside files, we can use the -e option to automatically extract these files
+#use binwalk -e repeatedly until you find the flag.txt file
+picoCTF{96fac089316e094d41ea046900197662}

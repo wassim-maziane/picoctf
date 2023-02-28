@@ -1,0 +1,6 @@
+exiftool cat.jpg
+#we then notice 2 patterns that look encoded, we try them both, the second one gives us the flag
+echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" | base64 -d
+#we get:
+picoCTF{the_m3tadata_1s_modified}
+
