@@ -13,3 +13,4 @@ display tunn3l_v1s10n.bmp
 #looking at the bitmapinfoheader, we find at offset 16 we should find the bitmap height in pixels, let's try increasing that.
 #we find the number 3201, we increase it to 3202, the image got bigger. we increase it to 3203, and the flag appears on the top of the screen
 picoCTF{qu1t3_a_v13w_2020}
+#you can compare the modified tunn3l_v1s10n that is in this directory with the unmodified tunn3l_v1s10n if something is unclear.
