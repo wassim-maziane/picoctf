@@ -1,0 +1,3 @@
+#if we look up RSA encryption we can see that it uses prime numbers to formulate it's keys. (n e) is the public key while (n d) is the private key, the c refers to the cipher text. However, this encryption isn't very strong if the prime numbers are not big enough and the private key can be bruteforced if we have the public key, which is (n e), clone the RsaCtfTool from https://github.com/RsaCtfTool/RsaCtfTool (look up the README.md for a guide of installation, we'll need to install the packages that are in requirements.txt with the version specified in this file). the following command will give us the flag
+python3 -n [value of n] -e [value of e] --uncipher [value of c]
+#picoCTF{sma11_N_n0_g0od_00264570} 
